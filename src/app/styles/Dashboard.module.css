@@ -1,0 +1,29 @@
+/* .dashboard {
+    padding: 20px;
+  }
+  
+  .widgetContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+   */
+   /* Dashboard.module.css */
+.dashboard {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .widgetContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
